@@ -1,0 +1,24 @@
+{
+  "name": "Chemicon Organic Operations",
+  "short_name": "Chemicon Ops",
+  "description": "Mobile-first operating system for Chemicon Organic field, delivery, traceability, and admin workflows.",
+  "start_url": "/chemicon-organic-v5-preview/",
+  "scope": "/chemicon-organic-v5-preview/",
+  "display": "standalone",
+  "background_color": "#f7f4ec",
+  "theme_color": "#2e693d",
+  "orientation": "portrait-primary",
+  "categories": [
+    "business",
+    "food",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/chemicon-organic-v5-preview/chemicon-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

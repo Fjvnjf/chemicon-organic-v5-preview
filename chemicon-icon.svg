@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Chemicon Organic">
+  <rect width="512" height="512" rx="108" fill="#f7f4ec"/>
+  <circle cx="256" cy="256" r="176" fill="#2e693d"/>
+  <path d="M257 383c-64-62-93-126-82-194 62 9 106 47 126 116 37-44 78-68 123-72-7 78-65 139-167 150Z" fill="#f2c36b"/>
+  <path d="M256 381c-5-83-2-151 9-204" fill="none" stroke="#f7f4ec" stroke-width="22" stroke-linecap="round"/>
+  <path d="M167 166c33-38 78-57 134-57 34 0 66 7 96 21-42 7-78 25-108 54-36-14-77-20-122-18Z" fill="#dff0f3"/>
+</svg>
