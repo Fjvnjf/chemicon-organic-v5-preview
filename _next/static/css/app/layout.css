@@ -3672,6 +3672,22 @@ a {
   box-shadow: var(--ov-shadow-float);
   transform: translateY(-0.25rem);
 }
+.ov-catalog-card__image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: calc(var(--ov-radius-md) - 0.25rem);
+  background: var(--ov-color-forest);
+}
+.ov-catalog-card__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--ov-motion-slow) var(--ov-ease-standard);
+}
+.ov-catalog-card:hover .ov-catalog-card__image img {
+  transform: scale(1.04);
+}
 .ov-catalog-card--featured {
   border-color: var(--ov-color-success);
   background: linear-gradient(150deg, var(--ov-color-cream-soft), rgb(214 239 128 / 17%));
@@ -4723,6 +4739,7 @@ a {
     }
   }
 }
+
 
 /* GitHub Pages static-preview stacking fix */
 .ov-home-hero-art { z-index: 0 !important; }
