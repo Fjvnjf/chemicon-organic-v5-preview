@@ -1339,6 +1339,10 @@ a {
     background: color-mix(in srgb, var(--ov-color-forest) 88%, transparent);
   }
 }
+.ov-public-header--dark > div > a,
+.ov-public-header--dark > div > a .truncate {
+  color: var(--ov-color-cream);
+}
 .ov-public-header--dark .ov-nav-link {
   color: var(--ov-color-sage);
 }
@@ -3625,6 +3629,9 @@ a {
 .ov-catalog-hero__metrics .ov-metric__label,
 .ov-catalog-hero__metrics .ov-metric__detail {
   color: var(--ov-color-sage);
+}
+.ov-catalog-hero__metrics .ov-metric__value {
+  color: var(--ov-color-cream);
 }
 .ov-catalog-list__inner {
   padding-top: var(--ov-space-8);
