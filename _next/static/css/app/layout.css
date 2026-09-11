@@ -4724,3 +4724,6 @@ a {
   }
 }
 
+/* GitHub Pages static-preview stacking fix */
+.ov-home-hero-art { z-index: 0 !important; }
+.ov-home-copy, .ov-home-hero-badges, .ov-home-scroll-cue { position: relative; z-index: 1; }
