@@ -4751,3 +4751,79 @@ a {
 /* GitHub Pages static-preview stacking fix */
 .ov-home-hero-art { z-index: 0 !important; }
 .ov-home-copy, .ov-home-hero-badges, .ov-home-scroll-cue { position: relative; z-index: 1; }
+
+/* Organic Veg readability patch — 2026-09-17 */
+:root {
+  --ov-color-muted: #536158;
+  --ov-type-body: 1.0625rem;
+  --ov-type-caption: 0.875rem;
+  --ov-color-surface: var(--ov-color-cream-soft);
+  --ov-color-surface-raised: #ffffff;
+  --surface: var(--ov-color-surface);
+}
+
+body {
+  font-size: var(--ov-type-body);
+  line-height: 1.7;
+}
+
+.text-sm {
+  font-size: 0.9375rem !important;
+}
+
+.text-xs {
+  font-size: 0.8125rem !important;
+  line-height: 1.5 !important;
+}
+
+.ov-home-hero-bottom,
+.ov-home-tiny-note,
+.ov-home-box-caption,
+.ov-how-hero__rail b,
+.ov-how-step__number,
+.ov-how-step__eyebrow,
+.ov-certificate-seal span,
+.ov-certificate-card__eyebrow {
+  font-size: 0.8125rem;
+}
+
+.ov-home-hero-bottom {
+  letter-spacing: 0.12em;
+}
+
+:where(
+    .ov-dark-surface,
+    .ov-role-header,
+    .ov-account-header,
+    .ov-trace-hero,
+    .ov-trace-panel--safe,
+    .ov-how-hero,
+    .ov-how-visibility,
+    .ov-certificate-hero,
+    .ov-certificate-boundary,
+    .ov-catalog-hero,
+    .ov-admin-hero,
+    .ov-checkout-hero,
+    .ov-checkout-support,
+    .ov-homepage
+  )
+  [class*="text-[var(--ov-color-muted)]"],
+:where(
+    .ov-dark-surface,
+    .ov-role-header,
+    .ov-account-header,
+    .ov-trace-hero,
+    .ov-trace-panel--safe,
+    .ov-how-hero,
+    .ov-how-visibility,
+    .ov-certificate-hero,
+    .ov-certificate-boundary,
+    .ov-catalog-hero,
+    .ov-admin-hero,
+    .ov-checkout-hero,
+    .ov-checkout-support,
+    .ov-homepage
+  )
+  [class*="text-[var(--muted)]"] {
+  color: var(--ov-color-sage) !important;
+}
